@@ -159,7 +159,11 @@ img{
   color: #000;
 }
 
+<<<<<<< HEAD
 .contact-section input{
+=======
+.contact-section input, textarea{
+>>>>>>> ea5bfd059a3119555bdba4d6f39400ea8573fa3b
   position: relative;
   width: 400px;
   height: 40px;
@@ -171,6 +175,7 @@ img{
 }
 
 .contact-section textarea{
+<<<<<<< HEAD
   position: relative;
   width: 400px;
   padding-left: 10px;
@@ -180,6 +185,10 @@ img{
   height: 150px;
   padding-top: 10px;
   transition: .3s;
+=======
+  height: 150px;
+  padding-top: 10px;
+>>>>>>> ea5bfd059a3119555bdba4d6f39400ea8573fa3b
 }
 
 .contact-section .contact-btn{
