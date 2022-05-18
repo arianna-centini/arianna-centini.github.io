@@ -159,7 +159,7 @@ img{
   color: #000;
 }
 
-.contact-section input, textarea{
+.contact-section input{
   position: relative;
   width: 400px;
   height: 40px;
@@ -171,8 +171,15 @@ img{
 }
 
 .contact-section textarea{
+  position: relative;
+  width: 400px;
+  padding-left: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
   height: 150px;
   padding-top: 10px;
+  transition: .3s;
 }
 
 .contact-section .contact-btn{
