@@ -152,7 +152,6 @@ img{
   margin: 0;
   padding-top: 3rem;
   padding-bottom: 2rem;
-  margin-left: 65px;
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 400;
@@ -160,25 +159,36 @@ img{
   color: #000;
 }
 
-.contact-section i{
-  margin-right: 20px;
-}
-
-.contact-section a{
-  text-decoration: none;
-  color: #000;
-  transition: all 0.5s ease-in-out;
-}
-
-.contact-section a:hover{
-  color: #666;
-}
-
-.contact-section p{
+.contact-section input, textarea{
   position: relative;
-  font-size: 22px;
-  font-weight: 500;
-  margin-left: 65px;
+  width: 400px;
+  height: 40px;
+  padding-left: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+  transition: .3s;
+}
+
+.contact-section textarea{
+  height: 150px;
+  padding-top: 10px;
+}
+
+.contact-section .contact-btn{
+  position: relative;
+  border-radius: 20px;
+  color: #fff;
+  padding: 11px;
+  background-color: #980F5A;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-section input:focus, textarea:focus{
+  background-color: #fff;
+  border: 2px solid #980F5A;
 }
 
 .footer{
