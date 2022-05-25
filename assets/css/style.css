@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300&display=swap');
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   margin: 0 auto;
   padding: 0;
@@ -138,6 +142,95 @@ img{
   font-weight: 500;
 }
 
+.about-section .arrow-btn{
+  position: relative;
+  color: #980F5A;
+  border: 2px solid #980F5A;
+  border-radius: 50%;
+  padding: 10px 15px;
+  margin-left: 35px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 22px;
+  transition: 0.5s ease-in-out;
+}
+
+.about-section .arrow-btn:hover{
+  color: #fff;
+  background-color: #980F5A;
+}
+
+@media screen and (max-width: 1024px){
+  .about-section .arrow-btn{
+    margin-left: 400px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .about-section .arrow-btn{
+    margin-left: 300px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .about-section .arrow-btn{
+    margin-left: 200px;
+  }
+}
+
+.competences-section{
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background-color: #fff;
+  margin: 2rem 2.5rem 2.3rem 2.5rem;
+  border-radius: 25px;
+}
+
+.competences-section .competences-title{
+  position: relative;
+  margin: 0;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #000;
+  text-align: center;
+}
+
+.competences-section .card{
+  position: relative;
+  height: 100%;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.competences-section .competences-name{
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
+}
+
+.competences-section .card-desc{
+  position: relative;
+  padding-top: 1.5rem;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #a5a7a7;
+}
+
 .contact-section{
   position: relative;
   padding-top: 2rem;
@@ -161,25 +254,25 @@ img{
 
 .contact-section input{
   position: relative;
-  width: 500px;
+  width: 450px;
   height: 40px;
   padding-left: 10px;
   border: 1px solid #777;
   border-radius: 14px;
   outline: none;
-  transition: .3s;
+  transition: 0.5s;
 }
 
 .contact-section textarea{
   position: relative;
-  width: 500px;
+  width: 450px;
   padding-left: 10px;
   border: 1px solid #777;
   border-radius: 14px;
   outline: none;
   height: 150px;
   padding-top: 10px;
-  transition: .3s;
+  transition: 0.5s;
 }
 
 .contact-section .contact-btn{
@@ -195,7 +288,7 @@ img{
 
 .contact-section input:focus, textarea:focus{
   background-color: #fff;
-  border: 2px solid #980F5A;
+  border: 1.5px solid #980F5A;
 }
 
 @media screen and (max-width: 600px){
