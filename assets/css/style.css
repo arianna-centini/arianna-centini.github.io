@@ -23,6 +23,7 @@ img{
   max-width: 100%;
 }
 
+/*Navbar*/
 .navbar{
   position: relative;
   background-color: #fff;
@@ -73,6 +74,7 @@ img{
   font-weight: 700;
 }
 
+/*Banner Section*/
 .banner-section{
   position: relative;
   padding-top: 2rem;
@@ -115,6 +117,7 @@ img{
   color: #666;
 }
 
+/*About Section*/
 .about-section{
   position: relative;
   padding-top: 2rem;
@@ -178,6 +181,7 @@ img{
   }
 }
 
+/*Competences Section*/
 .competences-section{
   position: relative;
   padding-top: 2rem;
@@ -231,6 +235,44 @@ img{
   color: #a5a7a7;
 }
 
+/*Portfolio Section*/
+.portfolio-section{
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background-color: #fff;
+  margin: 2rem 2.5rem 2.3rem 2.5rem;
+  border-radius: 25px;
+}
+
+.portfolio-section .portfolio-title{
+  position: relative;
+  padding-top: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.portfolio-section .portfolio-description{
+  position: relative;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a5a7a7;
+}
+
+.portfolio-section .portfolio-desc{
+  position: relative;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/*Contact Section*/
 .contact-section{
   position: relative;
   padding-top: 2rem;
@@ -300,6 +342,7 @@ img{
   }
 }
 
+/*Footer*/
 .footer{
   padding-top: 2rem;
   color: #dcdcdc;
